@@ -1,0 +1,40 @@
+{
+  "name": "shiny-guacamole",
+  "version": "1.0.0",
+  "description": "Build a CRUD API with MongoDB, Express, and Docker - build an API using Express.js backed by a MongoDB database all deployed with Docker Compose and tested with Mocha and Travis CI. The design of this API and its various components is loosely based on the 12 Factor App Methodology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcgithub/shiny-guacamole.git"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "express",
+    "docker",
+    "docker",
+    "compose",
+    "api",
+    "mocha",
+    "travis"
+  ],
+  "author": "danielcgithub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielcgithub/shiny-guacamole/issues"
+  },
+  "homepage": "https://github.com/danielcgithub/shiny-guacamole#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.9"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0",
+    "tape": "^4.9.1"
+  }
+}
